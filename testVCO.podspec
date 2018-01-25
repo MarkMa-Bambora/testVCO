@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "testVCO"
-  spec.version          = "1.0.0"
+  spec.version          = "1.0.1"
   spec.summary          = "I am Mark"
   build_tag             = spec.version
   spec.homepage         = "http://bambora.com/en/au"
