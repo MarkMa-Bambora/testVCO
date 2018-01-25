@@ -13,6 +13,8 @@
 		971C0A7520197B1200AF292A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971C0A7420197B1200AF292A /* Assets.xcassets */; };
 		971C0A7820197B1200AF292A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 971C0A7620197B1200AF292A /* LaunchScreen.storyboard */; };
 		971C0A7B20197B1200AF292A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A7A20197B1200AF292A /* main.m */; };
+		971C0A862019820500AF292A /* BNBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A822019820500AF292A /* BNBaseModel.m */; };
+		971C0A872019820500AF292A /* VisaCheckoutLaunchParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A842019820500AF292A /* VisaCheckoutLaunchParams.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		971C0A7720197B1200AF292A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		971C0A7920197B1200AF292A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971C0A7A20197B1200AF292A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		971C0A822019820500AF292A /* BNBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNBaseModel.m; sourceTree = "<group>"; };
+		971C0A832019820500AF292A /* BNBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNBaseModel.h; sourceTree = "<group>"; };
+		971C0A842019820500AF292A /* VisaCheckoutLaunchParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaCheckoutLaunchParams.m; sourceTree = "<group>"; };
+		971C0A852019820500AF292A /* VisaCheckoutLaunchParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaCheckoutLaunchParams.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		971C0A5F20197B1200AF292A = {
 			isa = PBXGroup;
 			children = (
+				971C0A81201981C500AF292A /* VCO */,
 				971C0A6A20197B1200AF292A /* testVCO */,
 				971C0A6920197B1200AF292A /* Products */,
 			);
@@ -69,6 +76,17 @@
 				971C0A7A20197B1200AF292A /* main.m */,
 			);
 			path = testVCO;
+			sourceTree = "<group>";
+		};
+		971C0A81201981C500AF292A /* VCO */ = {
+			isa = PBXGroup;
+			children = (
+				971C0A832019820500AF292A /* BNBaseModel.h */,
+				971C0A822019820500AF292A /* BNBaseModel.m */,
+				971C0A852019820500AF292A /* VisaCheckoutLaunchParams.h */,
+				971C0A842019820500AF292A /* VisaCheckoutLaunchParams.m */,
+			);
+			path = VCO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971C0A862019820500AF292A /* BNBaseModel.m in Sources */,
 				971C0A7020197B1200AF292A /* ViewController.m in Sources */,
 				971C0A7B20197B1200AF292A /* main.m in Sources */,
+				971C0A872019820500AF292A /* VisaCheckoutLaunchParams.m in Sources */,
 				971C0A6D20197B1200AF292A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
