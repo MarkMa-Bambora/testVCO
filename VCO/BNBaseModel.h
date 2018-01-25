@@ -25,7 +25,7 @@
 @interface BNBaseModel : NSObject <NSCoding, NSCopying>
 
 + (NSDictionary *)JSONMappingDictionary;
-
+//just a comment gg
 - (instancetype)initWithJSONDictionary:(NSDictionary *)JSONDictionary
                                  error:(NSError **)error;
 
