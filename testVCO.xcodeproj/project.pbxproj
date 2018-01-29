@@ -17,7 +17,7 @@
 		971C0A872019820500AF292A /* VisaCheckoutLaunchParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A842019820500AF292A /* VisaCheckoutLaunchParams.m */; };
 		971C0A8D201E967300AF292A /* VCOcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A8C201E967300AF292A /* VCOcheck.m */; };
 		971C0A91201E973A00AF292A /* VisaCheckOutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A90201E973A00AF292A /* VisaCheckOutButton.m */; };
-		971C0A96201EA67700AF292A /* VisaCheckoutHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; };
+		971C0A96201EA67700AF292A /* VisaCheckoutHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		971C0A97201EA67700AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
