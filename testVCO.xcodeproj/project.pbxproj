@@ -17,7 +17,23 @@
 		971C0A872019820500AF292A /* VisaCheckoutLaunchParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A842019820500AF292A /* VisaCheckoutLaunchParams.m */; };
 		971C0A8D201E967300AF292A /* VCOcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A8C201E967300AF292A /* VCOcheck.m */; };
 		971C0AC6201EC39C00AF292A /* VisaCheckOutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0AC5201EC39C00AF292A /* VisaCheckOutButton.m */; };
+		971C0AC7201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; };
+		971C0AC8201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		971C0AC9201ECA1D00AF292A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				971C0AC8201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		971C0A6820197B1200AF292A /* testVCO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testVCO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971C0AC7201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +128,7 @@
 				971C0A6420197B1200AF292A /* Sources */,
 				971C0A6520197B1200AF292A /* Frameworks */,
 				971C0A6620197B1200AF292A /* Resources */,
+				971C0AC9201ECA1D00AF292A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
