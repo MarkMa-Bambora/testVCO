@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "testVCO"
-  spec.version          = "1.1.3"
+  spec.version          = "1.1.4"
   spec.summary          = "I am Mark"
   build_tag             = spec.version
   spec.homepage         = "http://bambora.com/en/au"
@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
                           }
   spec.platform         = :ios, '8.0'
   spec.requires_arc     = true
-  spec.vendored_frameworks = 'VCO/VisaCheckoutHybrid.framework'
+  spec.vendored_frameworks = 'VisaCheckoutHybrid.framework'
   spec.source_files     = 'VCO/*.{h,m}'
 end
