@@ -17,8 +17,8 @@
 		971C0A872019820500AF292A /* VisaCheckoutLaunchParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A842019820500AF292A /* VisaCheckoutLaunchParams.m */; };
 		971C0A8D201E967300AF292A /* VCOcheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0A8C201E967300AF292A /* VCOcheck.m */; };
 		971C0AC6201EC39C00AF292A /* VisaCheckOutButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 971C0AC5201EC39C00AF292A /* VisaCheckOutButton.m */; };
-		971C0AC7201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; };
-		971C0AC8201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		971C0ACC201ECBA900AF292A /* VisaCheckoutHybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0ACA201ECB9C00AF292A /* VisaCheckoutHybrid.framework */; };
+		971C0ACD201ECBA900AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 971C0ACA201ECB9C00AF292A /* VisaCheckoutHybrid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				971C0AC8201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */,
+				971C0ACD201ECBA900AF292A /* VisaCheckoutHybrid.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,9 +52,9 @@
 		971C0A852019820500AF292A /* VisaCheckoutLaunchParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaCheckoutLaunchParams.h; sourceTree = "<group>"; };
 		971C0A8B201E967300AF292A /* VCOcheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCOcheck.h; sourceTree = "<group>"; };
 		971C0A8C201E967300AF292A /* VCOcheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCOcheck.m; sourceTree = "<group>"; };
-		971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisaCheckoutHybrid.framework; sourceTree = "<group>"; };
 		971C0AC4201EC39C00AF292A /* VisaCheckOutButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaCheckOutButton.h; sourceTree = "<group>"; };
 		971C0AC5201EC39C00AF292A /* VisaCheckOutButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaCheckOutButton.m; sourceTree = "<group>"; };
+		971C0ACA201ECB9C00AF292A /* VisaCheckoutHybrid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VisaCheckoutHybrid.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				971C0AC7201ECA1C00AF292A /* VisaCheckoutHybrid.framework in Frameworks */,
+				971C0ACC201ECBA900AF292A /* VisaCheckoutHybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,6 @@
 		971C0A5F20197B1200AF292A = {
 			isa = PBXGroup;
 			children = (
-				971C0A95201EA67600AF292A /* VisaCheckoutHybrid.framework */,
 				971C0A81201981C500AF292A /* VCO */,
 				971C0A6A20197B1200AF292A /* testVCO */,
 				971C0A6920197B1200AF292A /* Products */,
@@ -106,6 +105,7 @@
 		971C0A81201981C500AF292A /* VCO */ = {
 			isa = PBXGroup;
 			children = (
+				971C0ACA201ECB9C00AF292A /* VisaCheckoutHybrid.framework */,
 				971C0AC4201EC39C00AF292A /* VisaCheckOutButton.h */,
 				971C0AC5201EC39C00AF292A /* VisaCheckOutButton.m */,
 				971C0A832019820500AF292A /* BNBaseModel.h */,
