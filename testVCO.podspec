@@ -12,10 +12,6 @@ Pod::Spec.new do |spec|
                           }
   spec.platform         = :ios, '8.0'
   spec.requires_arc     = true
-  spec.source_files     = 'VCO/*.{h,m}'
   spec.vendored_frameworks = 'VCO/VisaCheckoutHybrid.framework'
-  spec.public_header_files = 'VCO/*.h'
-  spec.xcconfig            = {
-    "FRAMEWORK_SEARCH_PATHS" => 'VCO'
-  }
+  spec.source_files     = 'VCO/*.{h,m}'
 end
